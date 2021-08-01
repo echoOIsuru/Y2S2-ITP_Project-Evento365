@@ -1,4 +1,4 @@
-package com.evento.booking.model;
+package com.project.evento.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

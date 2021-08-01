@@ -1,4 +1,4 @@
-package com.evento.booking;
+package com.project.evento;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
