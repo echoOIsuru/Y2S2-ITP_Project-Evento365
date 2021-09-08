@@ -30,19 +30,21 @@ public class Booking {
 	@Column(name = "gusts_count")
 	private long gusts;
 	
-	@Column(name = "total")
+	@Column(name = "total_amount")
 	private String total;
 	
 	@Column(name = "date")
 	private String date;
 	
+	@Column(name = "status")
+	private String status;
 	
 	public Booking() {
 		
 	}
 	
 	public Booking(String customer_id, String booking_date, String event_type, long location_id, long gusts,
-			String total, String date) {
+			String total, String date, String status) {
 		super();
 		this.customer_id = customer_id;
 		this.booking_date = booking_date;
@@ -51,8 +53,16 @@ public class Booking {
 		this.gusts = gusts;
 		this.total = total;
 		this.date = date;
+		this.status = status;
 	}
 	
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
 	public long getBooking_id() {
 		return booking_id;
 	}

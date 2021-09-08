@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "bootstrap": "^5.0.2"
+    "bootstrap": "^5.0.2",
+    "react-datetime": "^3.0.4",
+    "react-day-picker": "^7.4.10"
   }
 }
