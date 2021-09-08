@@ -11,6 +11,27 @@ class BookingService{
     createBooking(booking){
         return axios.post(BOOKING_API_BASE_URL, booking);
     }
+
+    getBookingById(bookingId){
+        return axios.get(BOOKING_API_BASE_URL + '/' + bookingId);
+    }
+
+    updateBooking(booking, bookinId){
+        return axios.put(BOOKING_API_BASE_URL + '/'+bookinId, booking);
+    }
+
+    deleteBooking(bookingId){
+        return axios.delete(BOOKING_API_BASE_URL + '/' + bookingId);
+    }
+
+    getLastBooking(){
+        return axios.get(BOOKING_API_BASE_URL+'-test');
+    }
+
+    getSearchBoooking(value){
+        return axios.get(BOOKING_API_BASE_URL + '/search?id=' + 10000 + '&value=' + value);
+    }
+
 }
 
 //export object of BookingService
