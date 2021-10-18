@@ -1,0 +1,456 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*
+.footer{
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+*/
+.footer{
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  height: 30px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.shadow-custom {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .25), 0 3px 10px 5px rgba(0, 0, 0, 0.05) !important;
+}
+
+/*COUNT DOWN TIMER*/
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+
+
+@media all and (max-width: 768px) {
+  
+  li {
+    font-size: 1.125rem;
+    padding: .75rem;
+  }
+  
+  li span {
+    font-size: 3.375rem;
+  }
+}
+
+.nav-tabs {
+  border-bottom:none;
+}
+
+
+
+.nav-tabs .nav-link.active {
+  background-color:#e2e2e2;
+  border-bottom:#e2e2e2;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.tab-pane.active .tab-pane-header {
+  padding:15rem;
+  background-color:#020202;
+  border-top-right-radius: .5rem;
+  border-top-left-radius: .5rem;
+  margin-bottom:1rem;
+}
+
+.tab-pane:first-child .tab-pane-header {
+  border-top-left-radius: 0;
+}
+
+.formDivgg {
+  
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  background-color:rgba(170, 141, 73, 0.4);
+}
+
+.formDivgg2 {
+  
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  background-color: #e2b58bbe;
+}
+
+.formDivgg3 {
+  
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+}
+
+.formDivgg4{
+  
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #e2b58bbe;
+}
+
+
+#form_login {
+  width:80%;
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.mainBackground{
+  height: 100%;
+  
+}
+
+.blackborder {
+    color: black;
+    font-weight: 500;
+    margin-top: 150px;
+    border: 3px solid #000000; 
+    vertical-align: middle;
+    
+   
+}
+
+.form_div{
+  height: 50%;
+}
+
+.admin_table_row{
+  text-align: center;
+  height: 50px;
+}
+
+.admin_table_main{
+  width: 100%;
+  height: 100px;
+  
+}
+
+.action_buttons{
+  margin-top: 5px;
+  margin-right: 5px;
+  width:75px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.adminsearchArea{
+  border-radius: 10px;
+  margin-left: 68%;
+  width: 100%;
+}
+
+.customersearchArea{
+  border-radius: 10px;
+  margin-left: 52%;
+}
+
+.searchBox{
+  border-radius: 5px;
+  background-color: rgb(100, 149, 237,0.3) ;
+}
+
+.searchButtonAdmin{
+  background-color: #0d6efd; 
+  border: none;
+  color: white;
+  padding: 3px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+  width:100px;
+}
+
+
+.searchButtonAdmin:hover {
+  background-color: rgb(100, 149, 237); /* Green */
+  color: white;
+}
+
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+.container {
+  max-width: 960px;
+}
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.transformDiv {
+
+  padding: 30px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0);
+  -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0);
+  box-shadow: -1px 8px 15px 0px rgba(0, 0, 0);
+  background-color: rgba(163, 139, 82, 0.55);
+
+}
+
+/*
+#admin_login input{
+  background-color: rgba(163, 139, 82, 0.6);
+}
+
+#customer_login input{
+  background-color: rgb(163, 139, 82,0.6);
+} */
+
+.userButtons{
+  background-color: rgba(100, 97, 92, 0.7);
+  width: 100%;
+  height: 45px;
+  border-color: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.userButtons:hover{
+  background-color: rgb(116, 113, 108);
+}
+
+.custom-select {
+  display: inline-block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem  .75rem;
+  line-height: 1.5;
+  color: #495057;
+  vertical-align: middle;
+  background-size: 8px 10px;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+   
+}
+
+.text-left {
+  text-align: left!important;
+}
+
+.usercomponentimg{
+  border-radius: 250px;
+  object-fit: cover;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.usercomponentcarddrop{
+box-shadow: 0px 0px 45px -5px;
+overflow: hidden;
+border-radius: 10px;
+}
+
+
+
+
+.Ev_pro_pic2{    
+  width: 160px;
+  height: 260px;
+}
+
+.Ev_pro_pic{    
+  width: 60px;
+  height: 60px;
+}
+.combined_btn{
+
+display: flex;
+flex-direction: row;
+
+
+}
+
+
+.combined_btn1 button{
+
+width: 160px;
+
+}
+
+
+.combined_btn2 button{
+
+  width: 160px;
+  
+  }
+
+
+.ml_20{
+ 
+  font-size: 20px;
+ 
+}
+
+
+.background1 {
+  content: "";
+  opacity: 1;
+  background-color: white;
+}
+
+.Ev_pro_pic2{    
+
+  width: 160px;
+
+  height: 260px;
+
+}
+
+
+
+.Ev_pro_pic{    
+
+  width: 60px;
+
+  height: 60px;
+
+}
+
+.combined_btn{
+
+
+
+display: flex;
+
+flex-direction: row;
+
+
+
+
+}
+
+
+
+
+.combined_btn1 button{
+
+
+
+width: 160px;
+
+
+
+}
+
+
+
+
+.combined_btn2 button{
+
+
+
+  width: 160px;
+
+  
+
+  }
+
+
+
+
+.ml_20{
+
+ 
+
+  font-size: 20px;
+
+ 
+
+}
+
+
+
+
+.background1 {
+
+  content: "";
+
+  opacity: 1;
+
+  background-color: rgb(253 179 13 / 13%);
+
+}
