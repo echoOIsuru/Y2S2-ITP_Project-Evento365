@@ -1,0 +1,146 @@
+.formrDivitemrent {
+    width: 80%;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    background-color: rgba(214, 188, 129, 0.4);
+    margin: auto;
+    /* rgba(170, 141, 73, 0.4); */
+  }
+
+  .formrDivitemrent1 {
+    width: 80%;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    background-color: rgba(214, 188, 129, 0.4);
+    margin: auto;
+    /* rgba(170, 141, 73, 0.4); */
+  }
+
+  .formrDivitemrent2 {
+    width: 80%;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+    background-color: rgba(214, 188, 129, 0.4);
+    /* rgba(170, 141, 73, 0.4); */
+  }
+
+  .adminsearch{
+    margin-left: auto; 
+margin-right: 0;
+  }
+
+  .abc{
+    margin-left: 100px;
+  }
+
+  .itemCard{
+    height: 340px;
+    width: 220px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.5;
+    animation: ease-in;
+    padding-top: 0%;
+    border-radius: 20px;
+}
+
+.itemCard:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px -5px;
+}
+
+/* .mrgn{
+    position:absolute;
+    margin-left: 120px;
+    margin-right: 120px;   
+} */
+
+.vmCard-body{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.itemimgCard img{
+    overflow: hidden;
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.itemCard-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+.itemCard-title{
+    margin-bottom: 0.5rem;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+.itemBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.itemBtn button{
+    /* padding: 0.5rem; */
+    background-color: rgb(18, 20, 20);
+    border: none;
+    transition: 0.2s;
+    margin: auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 650;
+    border-radius: 5px;
+    font-size: 12px;
+  
+}
+
+.itemBtn button:hover{
+    background: rgb(50, 151, 155);
+    transform: scale(1.01);
+    
+}
+
+.reportstyle{
+    margin-bottom: 100px;
+    padding-top: 200px;
+}
+
+@media print {
+
+    body * {
+      visibility: hidden;
+    }
+    .section-to-print, .section-to-print * {
+      visibility: visible;
+    }
+    .section-to-print {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+

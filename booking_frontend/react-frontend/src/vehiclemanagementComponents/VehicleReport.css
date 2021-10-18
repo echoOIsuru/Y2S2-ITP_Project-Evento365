@@ -1,0 +1,142 @@
+
+.VclReport1 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd; 
+  }
+.VclReport1 td{
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+.VclReport1 th {
+    border: 1px solid #ddd;
+    padding: 80px;
+    text-align: center;
+  }
+  
+.VclReport1 tr:nth-child(even){background-color: #f2f2f2;}
+  
+.VclReport1 tr:hover {background-color: #ddd;}
+  
+.VclReport1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .VclReport2 {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+
+.VclReport2 td{
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+.VclReport2 th {
+    border: 1px solid #ddd;
+    padding: 100px;
+    text-align: center;
+  }
+  
+.VclReport2 tr:nth-child(even){background-color: #f2f2f2;}
+  
+.VclReport2 tr:hover {background-color: #ddd;}
+  
+.VclReport2 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #d45308;
+    color: white;
+  }
+
+
+.VclReportViewH1{
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 650;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.VclReportViewSubHead{
+    font-size: 23px;
+    font-weight: bold;
+    color: #206a7a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.VclReportPrintBtnv button{
+    padding: 0.5rem;
+    background-color: #b97060;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 650;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 90px;
+    color: aliceblue;
+}
+
+.VclReportPrintBtnv button:hover{
+    background: #e49b8b;
+    transform: scale(1.01);
+    
+}
+
+
+.VclReportCancelBtnv button{
+  padding: 0.5rem;
+  background-color: #D9B2A9;
+  border: none;
+  transition: 0.2s;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 650;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 90px;
+}
+
+.VclReportCancelBtnv button:hover{
+  background: #eecbc3;
+  transform: scale(1.01);
+  
+}
+
+
+.VclReportPrintBtnv , .VclReportCancelBtnv {
+  display:inline-block;
+}
+
+
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    .section-to-print, .section-to-print * {
+      visibility: visible;
+    }
+    .section-to-print {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+  }

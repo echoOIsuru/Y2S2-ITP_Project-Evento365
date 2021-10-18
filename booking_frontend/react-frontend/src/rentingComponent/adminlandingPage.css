@@ -1,0 +1,89 @@
+/*Adding Button*/
+.eqladdBtn button{
+    padding: 0.5rem;
+    background-color: #21928b;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 650;
+    border-radius: 5px;
+    font-size: 12px;
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+}
+
+.eqladdBtn button:hover{
+    background: #61b4c7;
+    transform: scale(1.01);
+    
+}
+/*Modify Button*/
+
+.eqlModBtn button{
+    padding: 0.5rem;
+    background-color: #a36719;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 650;
+    border-radius: 5px;
+    font-size: 12px;
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+}
+
+.eqlModBtn button:hover{
+    background:  #d68370;
+    transform: scale(1.01);
+    
+}
+.eqladdBtn , .eqlModBtn {
+    display:inline-block;
+}
+
+/*report Button*/
+
+.eqlReportBtn button{
+    padding: 0.5rem;
+    background-color: #9de207;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 650;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 420px;
+    height: 50px;
+}
+.eqlReportBtn button:hover{
+    background: #8d02d3;
+    transform: scale(1.01);
+  
+
+}
+
+.eqlModBtn button:hover{
+    background:  #c97e6d;
+    transform: scale(1.01);
+    
+}
+  .headingModsLand h1:after {
+    width: 350px;
+    height: 3px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -175px;
+    background-color: #BF793B;
+  }
